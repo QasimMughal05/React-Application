@@ -10,32 +10,29 @@ function App(){
     const [count, setCount ] = useState(0);
     const [num, setNum ] = useState(0);
 
-
-    useEffect(()=>{
-      console.log("use ran");
-    });
-
-    // const handleClick = () => {
-    //   setCount(count + 1);
-    //   console.log(count);
-    // };
+    const handleAdd = () => {
+      setCount(count + 1);
+   
+    };
 
 
       return (
         <>
-          <AddNum></AddNum>
+          <AddNum myStyle = {myclass} handleAdd={handleAdd} count={count}>
+            <h1 className='p-4 bg-red-500'> child elemnt</h1>
+            </AddNum>
           {/* <h1 className={myclass}>{loggedin ? greet : "Number Is"}</h1> */}
-          <h1 className={myclass}> Number Is {count}</h1>
-          <h1 className={myclass}> Number Is {num}</h1>
+          {/* <h1 className={myclass}> Number Is {count}</h1>
+          <h1 className={myclass}> Number Is {num}</h1> */}
 
           {/* <button className='px-4 py-2 bg-blue-500 text-white' 
           onClick={handleClick}> Count</button> */}
-                    <button className='px-4 py-2 bg-blue-500 text-white' 
-          onClick={() => setCount(count + 1)}> Count</button> 
-          <br/>
-          <br/>
-                              <button className='px-4 py-2 bg-blue-500 text-white' 
-          onClick={() => setNum(num + 1)}> Add Num</button> 
+                    {/* <button className='px-4 py-2 bg-blue-500 text-white' 
+          onClick={() => setCount(count + 1)}> Count</button>  */}
+          {/* <br/>
+          <br/> */}
+                              {/* <button className='px-4 py-2 bg-blue-500 text-white' 
+          onClick={() => setNum(num + 1)}> Add Num</button>  */}
 
 
           {/* <div className='text-2xl'>

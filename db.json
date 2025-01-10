@@ -1,16 +1,16 @@
 {
-    "posts":[
-        {
-            "title": "Games and Books",
-            "body": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ne volutpat arcu. Cras ac magna justo. Suspendisse potenti.Integer eutincidunt nulla, vitae convallis metus.",
-            "created_at":"05-01-2025",
-            "id": 1
-        },
-        {
-            "title": "Best Js Framework",
-            "body": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ne volutpat arcu. Cras ac magna justo. Suspendisse potenti.Integer eutincidunt nulla, vitae convallis metus.",
-            "created_at":"05-01-2025",
-            "id": 2
-        }
-    ]
+  "posts": [
+    {
+      "title": "Games and Books",
+      "body": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ne volutpat arcu. Cras ac magna justo. Suspendisse potenti.Integer eutincidunt nulla, vitae convallis metus.",
+      "created_at": "05-01-2025",
+      "id": "1"
+    },
+    {
+      "title": "Best Js Framework",
+      "body": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ne volutpat arcu. Cras ac magna justo. Suspendisse potenti.Integer eutincidunt nulla, vitae convallis metus.",
+      "created_at": "05-01-2025",
+      "id": "2"
+    }
+  ]
 }

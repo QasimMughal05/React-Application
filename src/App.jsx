@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import PostCreate from "./Pages/PostCreate";
 import NoPage from "./Pages/NoPage";
 import Hooks from "./Pages/Hooks";
+import Hooksecond from "./Pages/Hooksecond";
+
 
 function App () {
   return(
@@ -13,6 +15,7 @@ function App () {
             <Route index element={<Home/> }/>
             <Route path="create" element={<PostCreate/>  }/>
             <Route path="Hook" element={<Hooks/>  }/>
+            <Route path="Hooksecond" element={<Hooksecond/>  }/>
             <Route path="*" element={<NoPage/>  }/>
           </Route>
         </Routes>

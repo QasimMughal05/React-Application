@@ -9,7 +9,7 @@ function Hooks() {
 
     return(
         <>
-            <h1 className="font-black text-4xl"> React Hooks</h1>
+            <h1 className="font-black text-4xl"> React Hooks useState</h1>
             <h1>{title.id}</h1>
             <h1>{title.body}</h1>
 

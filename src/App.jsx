@@ -5,6 +5,7 @@ import PostCreate from "./Pages/PostCreate";
 import NoPage from "./Pages/NoPage";
 import Hooks from "./Pages/Hooks";
 import Hooksecond from "./Pages/Hooksecond";
+import UseRefhok from "./Pages/UseRefhok";
 
 
 function App () {
@@ -16,6 +17,7 @@ function App () {
             <Route path="create" element={<PostCreate/>  }/>
             <Route path="Hook" element={<Hooks/>  }/>
             <Route path="Hooksecond" element={<Hooksecond/>  }/>
+            <Route path="UseRefhook" element={<UseRefhok/>  }/>
             <Route path="*" element={<NoPage/>  }/>
           </Route>
         </Routes>

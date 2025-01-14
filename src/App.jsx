@@ -6,6 +6,7 @@ import NoPage from "./Pages/NoPage";
 import Hooks from "./Pages/Hooks";
 import Hooksecond from "./Pages/Hooksecond";
 import UseRefhok from "./Pages/UseRefhok";
+import UseContextHook from "./Pages/UseContextHook";
 
 
 function App () {
@@ -18,6 +19,7 @@ function App () {
             <Route path="Hook" element={<Hooks/>  }/>
             <Route path="Hooksecond" element={<Hooksecond/>  }/>
             <Route path="UseRefhook" element={<UseRefhok/>  }/>
+            <Route path="UseContextHook" element={<UseContextHook/>  }/>
             <Route path="*" element={<NoPage/>  }/>
           </Route>
         </Routes>

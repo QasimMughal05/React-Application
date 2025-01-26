@@ -11,6 +11,12 @@
       "body": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ne volutpat arcu. Cras ac magna justo. Suspendisse potenti.Integer eutincidunt nulla, vitae convallis metus.",
       "created_at": "05-01-2025",
       "id": "2"
+    },
+    {
+      "id": "f724",
+      "title": "Best Programming Languages ",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ne volutpat arcu. Cras ac magna justo. Suspendisse",
+      "created_at": "26/01/2025"
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import Footer from "../Components/footer";
 const Layout = () => {
     return (
         <>
@@ -28,6 +29,9 @@ const Layout = () => {
             <main className="py-8 py-12"> 
                 <Outlet/>
             </main>
+
+             {/* Footer is added here, it will appear on all pages */}
+             <Footer />
         </>
     )
 

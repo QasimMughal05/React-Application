@@ -5,7 +5,7 @@ let nextid = 2
 const Form2 =  () => {
     const title = useRef();
     const {post, setpost }  = (useContext(MyContext));
-//    console.log(useContext(MyContext));
+    console.log(useContext(MyContext));
     const handleAdd = () =>{
         setpost([...post, {id: nextid++, title:title.current.value}])
     }

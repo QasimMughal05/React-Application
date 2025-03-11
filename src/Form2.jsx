@@ -10,8 +10,6 @@ const Form2 =  () => {
         setpost([...post, {id: nextid++, title:title.current.value}])
     }
 
-
-
     return(
         <>
             <input type="text" name="username" placeholder="Name"
